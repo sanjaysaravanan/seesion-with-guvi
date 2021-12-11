@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Other</title>
+    <!-- External Style Sheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Style Block -->
+    <style>
+      /* Class Selector */
+      .sample-class {
+        background: blue;
+        width: 100px;
+        height: 100px;
+      }
+      /* Id Seletor */
+      #sample-id {
+        background: red !important;
+        width: 100px;
+        height: 100px;
+      }
+      /* Child Tag Selection */
+      #sample-id > h1 {
+        color: white;
+      }
+      /* Media Queries */
+      /* Style applies for Screen greater than 400px or more */
+      @media only screen and (min-width: 400px) {
+        #media-query {
+          background-color: red;
+        }
+      }
+      /* Style applies for Screen greater than 600px or more */
+      @media only screen and (min-width: 600px) {
+        #media-query {
+          background-color: lightblue;
+        }
+      }
+      /* Style applies for Screen greater than 800px or more */
+      @media only screen and (min-width: 800px) {
+        #media-query {
+          background-color: green;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div style="background: green; height: 150px; width: 100px" id="sample-id">
+      <h1>Inner Text</h1>
+      <h2>Inner H2</h2>
+    </div>
+    <!-- Order of CSS prority  -->
+    <!-- Inline > style block > external sheet -->
+    <!-- Order priority can be overriden by !important -->
+    <div
+      style="width: 100%; height: 100px; margin: 16px"
+      id="media-query"
+    ></div>
+
+    <!-- Sequence of box model Content -> padding -> border -> margin -->
+  </body>
+</html>

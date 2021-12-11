@@ -1,0 +1,73 @@
+11/12/2021
+JavaScript
+1. 
+  HTML Browser View, Debugger, Inspect, Responsive View.
+  Browser JS vs Node JS
+  Data Types ---> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
+
+2. 
+  let, const, rest, spread, array, object destruture, template literals
+
+3. 
+  Map, Reduce, Filter
+
+3.
+  Functions, types of functions.( anonymous, arrow ... )
+
+4.
+  Hoisting   ---> https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
+
+5.
+  Copy by value & reference  ---> copy-val-ref.js
+  XMLHTTPRequest   ---> index.js
+
+6. 
+  Class, this, OOPs
+
+
+HTML
+1. div vs section vs article 
+2. div vs span
+3. Forms
+
+CSS
+1.css, class, id, querySlectors, important, accessibility, display,
+  flex-box, position, gradient, media-query, overflow
+
+
+
+
+
+out of the 
+  <img src="../../pic.jpg"  />
+  <img src="pic.jpg"  />
+  <img src="images/pic.jpg"  />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Test URL: www.guvi.in/AssessmentHTMLCSSjs28WEg.uvi Access Code:guvi#zen
